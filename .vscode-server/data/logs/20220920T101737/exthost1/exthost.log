@@ -54,3 +54,4 @@
 [2022-09-20 10:22:26.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
 [2022-09-20 10:22:26.791] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-chrome'
 [2022-09-20 10:23:05.889] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1978
+[2022-09-20 10:27:18.546] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1980
