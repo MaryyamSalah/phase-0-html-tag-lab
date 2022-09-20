@@ -1,0 +1,56 @@
+[2022-09-20 10:17:41.688] [exthost] [info] Extension host with pid 688 started
+[2022-09-20 10:17:41.763] [exthost] [info] Lock '/home/maryam/.vscode-server/data/User/workspaceStorage/a4e7f671fb4ed332b1da14133626c579/vscode.lock': Lock acquired.
+[2022-09-20 10:17:41.983] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-20 10:17:42.023] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-20 10:17:42.053] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-20 10:17:42.187] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-20 10:17:42.306] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-20 10:17:42.504] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-20 10:17:42.520] [exthost] [info] Eager extensions activated
+[2022-09-20 10:17:54.629] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-20 10:18:11.469] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-09-20 10:18:49.474] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-09-20 10:18:49.477] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'find')
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/extensions/emmet/dist/node/emmetNodeMain.js:1:187296)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/extensions/emmet/dist/node/emmetNodeMain.js:1:185653)
+	at J.provideCompletionItems (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:51893)
+	at /home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:77030
+	at ee._withAdapter (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:67201)
+	at ee.$provideCompletionItems (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:77006)
+	at i._doInvokeHandler (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:13689)
+	at i._invokeHandler (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:13371)
+	at i._receiveRequest (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:12090)
+	at i._receiveOneMessage (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:10843)
+	at /home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:8950
+	at b.invoke (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:19042)
+	at /home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:17079
+	at b.invoke (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:19042)
+	at r._receiveMessage (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:23854)
+	at /home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:21224
+	at b.invoke (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v.acceptChunk (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15873)
+	at /home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15003
+	at b.invoke (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v._processReadQueue (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:34271)
+	at v.acceptFrame (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:33927)
+	at b._acceptChunk (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:31891)
+	at /home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:28880
+	at Socket.d (/home/maryam/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:26763)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+[2022-09-20 10:22:26.780] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2022-09-20 10:22:26.791] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-chrome'
+[2022-09-20 10:23:05.889] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 1978

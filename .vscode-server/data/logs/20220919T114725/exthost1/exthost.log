@@ -1,0 +1,16 @@
+[2022-09-19 11:47:29.778] [exthost] [info] Extension host with pid 727 started
+[2022-09-19 11:47:29.871] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-19 11:47:29.891] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-09-19 11:47:29.911] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-19 11:47:29.979] [exthost] [info] Lock '/home/maryam/.vscode-server/data/User/workspaceStorage/d209ee5044c003a5d4a9070246a09d45/vscode.lock': Lock acquired.
+[2022-09-19 11:47:30.164] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-19 11:47:30.249] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 11:47:30.290] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-19 11:47:30.302] [exthost] [info] Eager extensions activated
+[2022-09-19 11:52:30.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-09-19 11:52:31.599] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-09-19 11:52:31.666] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2022-09-19 11:52:32.964] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+[2022-09-19 15:48:36.947] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-19 15:48:37.043] [exthost] [info] Lock '/home/maryam/.vscode-server/data/User/workspaceStorage/d209ee5044c003a5d4a9070246a09d45/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-19 15:48:37.677] [exthost] [info] Extension host with pid 727 exiting with code 0

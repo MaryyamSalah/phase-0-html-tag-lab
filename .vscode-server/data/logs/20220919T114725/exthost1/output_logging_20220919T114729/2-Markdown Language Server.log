@@ -1,0 +1,5 @@
+[Trace 08:52:32.856] Server: connection.languages.diagnostics.on: file:///home/maryam/my-git-project/react/my_new_directory/README.md
+[Debug 08:52:32.870] TableOfContentsProvider: create - file:///home/maryam/my-git-project/react/my_new_directory/README.md
+[Trace 08:52:32.871] Server: connection.languages.diagnostics.on: file:///home/maryam/my-git-project/react/my_new_directory/README.md
+[Debug 08:52:32.877] LinkProvider: compute - file:///home/maryam/my-git-project/react/my_new_directory/README.md
+[Debug 08:52:34.374] MdFoldingProvider: provideFoldingRanges - file:///home/maryam/my-git-project/react/my_new_directory/README.md
